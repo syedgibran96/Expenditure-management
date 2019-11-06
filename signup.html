@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Form.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="assets/css/Block-Responsive-Item-List.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer.css">
+    <link rel="stylesheet" href="assets/css/sss-Product-List-f.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-image:url(&quot;assets/img/photo-1519377345644-937ef9754740.jpg&quot;);background-repeat:no-repeat;background-size:cover;">
+    <div>
+        <nav class="navbar navbar-light navbar-expand fixed-top navigation-clean-button" style="margin-top:0px;padding-top:20px;padding-bottom:19px;">
+            <div class="container-fluid"><a class="navbar-brand bounce animated" href="home.html" style="font-family:'Bungee Shade', cursive;font-size:31px;color:#c6930a;margin-top:-7px;">Expensoo!</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="home.html" data-bs-hover-animate="pulse" style="padding-left:20px;padding-right:20px;"><strong>Home</strong></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="contactus.html" data-bs-hover-animate="pulse"><strong>Contact Us</strong></a></li>
+						<li class="nav-item" role="presentation"><a class="nav-link" href="#" data-bs-hover-animate="pulse"><strong>About Us</strong></a></li>
+                    </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="login.php" data-bs-hover-animate="pulse" style="background-color:#f78593;">Log In</a></span></div>
+    </div>
+    </nav>
+    </div>
+	<br>
+	<br>
+    <div class="container bounce animated profile profile-view" id="profile" style=" padding:10px;margin:150px;background-color:rgba(186,222,230,0.81);">
+        <div class="row">
+            <div class="col-md-12 alert-col relative">
+                <div class="alert alert-info absolue center" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Profile save with success</span></div>
+            </div>
+        </div>
+        <form method="post" action="http://localhost:8080/expenditure/signup.php" enctype="multipart/form-data">
+            <div class="form-row profile-row">
+                <div class="col-md-4 relative">
+                    <div class="avatar">
+                        <div class="avatar-bg center"></div>
+                    </div><input type="file" class="form-control" name="avatar-file"></div>
+                <div class="col-md-8">
+                    <h1 style="font-family:Roboto, sans-serif;">Profile </h1>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Name</label><input class="form-control" type="text" name="name"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Ph-No</label><input class="form-control" type="number" name="phno" placeholder="+91"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Salary</label><input class="form-control" type="number" name="salary" placeholder="&#x20b9;"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Gender</label><br>  <input type="radio" name="gender" value="male" checked> Male<input type="radio" name="gender" value="female"> Female<input type="radio" name="gender" value="other"> Other<br></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Email</label><input class="form-control" type="email" name="email" placeholder="example@ex.com" autocomplete="false" required></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Password</label><input class="form-control" type="password" name="password" autocomplete="false" required></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-md-12 content-right"><input class="btn btn-primary form-btn" type="submit" value="Save"><button class="btn btn-danger form-btn" type="reset">Reset</button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>
+</body>
+
+</html>
